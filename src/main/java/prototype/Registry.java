@@ -1,10 +1,11 @@
 package prototype;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Registry {
 
-    public static HashMap<String,Student>  studentRegistry = new HashMap<String, Student>();
+    public static Map<String,Student> studentRegistry = new HashMap<String, Student>();
 
     public static void loadRegistry(){
         Student studentOne = new Student();
